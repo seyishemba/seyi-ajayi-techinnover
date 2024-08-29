@@ -1,47 +1,61 @@
-# Getting Started with Create React App
+# Task Management App by Ajayi Seyi for Techinnover
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Overview
 
-## Available Scripts
+Welcome to the Task Management App! This React-based application is designed to help you efficiently organize and manage your tasks. It features draggable tasks, priority indicators, and status tracking to enhance your task management experience.
 
-In the project directory, you can run:
+- Candidate Name: Ajayi Seyi 
+- For: Techinnover
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Features
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+- **Draggable Tasks**: Easily rearrange tasks using drag-and-drop functionality.
+- **Priority Levels**: Visual indicators for task priorities (High, Medium, Low) with distinct colors.
+- **Status Tracking**: Track task statuses (Completed, In Progress, Pending) with color-coded labels.
+- **Responsive Design**: The app is optimized for both desktop and mobile views.
 
-### `npm test`
+## Technologies
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- **React**: Used for building the user interface.
+- **Tailwind CSS**: Provides utility-first CSS styling.
+- **FontAwesome**: Used for icons (if applicable).
 
-### `npm run build`
+## Installation
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+To set up the Task Management App on your local machine, follow these steps:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+1. **Clone the Repository**
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+   ```bash
+    git clone https://github.com/seyishemba/seyi-ajayi-techinnover.git
+    cd seyi-ajayi-techinnover
+    npm install
+    npm start
 
-### `npm run eject`
+## Usage
+Adding and Managing Tasks
+Add a Task
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+Click the “Add Task” button to create a new task.
+Edit a Task
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Click the “Edit” button to modify a task’s details.
+Delete a Task
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+Click the “Delete” button to remove a task.
+Drag and Drop
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+Rearrange tasks by dragging and dropping them.
+Task Priorities and Statuses
+Priority:
 
-## Learn More
+High: Indicated by a red background.
+Medium: Indicated by a yellow background.
+Low: Indicated by a blue background.
+Status:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Completed: Marked in green.
+In Progress: Marked in yellow.
+Pending: Marked in red.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
-# seyi-ajayi-techinnover
